@@ -46,7 +46,7 @@ function navbar(props) {
 function time() {
   return Math.round(Math.random()*100);
 }
-functionq cardImg() {
+function cardImg() {
   return (
     <img src="https://picsum.photos/900/800" className="img-fluid rounded-start border-2 border-dashed
 " alt="..." style={{borderRadius: "3px"}}/>
